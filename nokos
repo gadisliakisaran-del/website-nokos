@@ -1,0 +1,36 @@
+website-nokos/
+│
+├── index.html              ← Halaman utama
+├── login.html              ← Login pengguna
+├── register.html           ← Daftar akun
+├── dashboard.html          ← Dashboard pengguna
+│
+├── admin/
+│   ├── index.html          ← Login/admin dashboard
+│   ├── dashboard.html
+│   ├── users.html          ← Kelola pengguna
+│   └── numbers.html        ← Kelola nomor
+│
+├── css/
+│   ├── style.css           ← Tampilan utama
+│   ├── login.css
+│   └── dashboard.css
+│
+├── js/
+│   ├── app.js              ← Fungsi utama
+│   ├── auth.js             ← Login/register
+│   ├── dashboard.js
+│   └── admin.js
+│
+├── assets/
+│   ├── logo.png
+│   └── images/
+│
+├── api/
+│   ├── auth.js
+│   ├── users.js
+│   └── numbers.js
+│
+├── .gitignore
+├── package.json
+└── README.md
